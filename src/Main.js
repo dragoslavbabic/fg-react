@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import MyNavbar from './components/MyNavbar';
 
-class Main extends Component {
-  render () {
-    return (
-      <div>
-        <h1>
-          Simple SPA
-        </h1>
+function Main() {
+  return (
+    <Router>
+      <div className="Main">
+        <MyNavbar />
       </div>
-    );
-  }
+    </Router>
+  );
 }
 
 export default Main;
