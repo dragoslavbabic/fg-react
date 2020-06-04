@@ -1,39 +1,35 @@
 import React, {Component} from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  Container,
-  Badge,
-  UncontrolledButtonDropdown,
-  Dropdown,
-  DropdownMenu,
-} from 'react-bootstrap';
+import {Dropdown, ButtonGroup, Button, DropdownButton} from 'react-bootstrap';
 import Navitem from './Navitem';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class MyNavbar extends Component {
   render() {
     return (
-      <nav>
-        <Dropdown>
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            Dropdown Button
-          </Dropdown.Toggle>
+      <navbar>
+        <ButtonGroup>
+          <Button>Početna</Button>
+          <DropdownButton
+            as={ButtonGroup}
+            title="Fauna"
+            id="bg-nested-dropdown"
+          >
+            <Dropdown.Item eventKey="1">Retke ptice</Dropdown.Item>
+            <Dropdown.Item eventKey="2">Sisari</Dropdown.Item>
+          </DropdownButton>
+          <DropdownButton
+            as={ButtonGroup}
+            title="Flora"
+            id="bg-nested-dropdown"
+          >
+            <Dropdown.Item eventKey="3">Biljke</Dropdown.Item>
+            <Dropdown.Item eventKey="4">Gljive</Dropdown.Item>
+          </DropdownButton>
 
-          <Dropdown.Menu>
-            <NavLink exact to="/url">
-              Menu item
-            </NavLink>
-            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
-      </nav>
+          <Button>O nama</Button>
+          <Button>Kontakt</Button>
+        </ButtonGroup>
+      </navbar>
     );
   }
 }
