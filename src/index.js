@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter} from 'react-router-dom';
-import Main from './Main';
+import App from './App';
 
-ReactDOM.render(<Main />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

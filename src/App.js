@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import MyNavbar from './components/MyNavbar';
 
-function Main() {
+function App() {
   return (
     <Router>
       <div className="Main">
@@ -12,4 +12,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default App;

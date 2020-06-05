@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import {Dropdown, ButtonGroup, Button, DropdownButton} from 'react-bootstrap';
+import {Dropdown, ButtonGroup, Button, DropdownButton,Navbar} from 'react-bootstrap';
 import Navitem from './Navitem';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class MyNavbar extends Component {
   render() {
     return (
-      <navbar>
+      <Navbar>
         <ButtonGroup>
           <Button>Početna</Button>
           <DropdownButton
@@ -29,7 +29,7 @@ class MyNavbar extends Component {
           <Button>O nama</Button>
           <Button>Kontakt</Button>
         </ButtonGroup>
-      </navbar>
+      </Navbar>
     );
   }
 }
