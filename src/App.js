@@ -1,15 +1,16 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
 import MyNavbar from './components/MyNavbar';
+import Content from './components/Content';
 
-function App() {
-  return (
-    <Router>
-      <div className="Main">
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
         <MyNavbar />
+        <Content />
       </div>
-    </Router>
-  );
+    );
+  }
 }
 
 export default App;
