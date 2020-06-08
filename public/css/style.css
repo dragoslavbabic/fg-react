@@ -1,0 +1,123 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.main_image {
+    background-image: url(../images/fg_main.jpg);
+    height: 800px;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover
+}
+
+.header{
+    background-color: #083c5d;
+    border-bottom: 4px solid #d9b310;
+}
+
+.main_text_box,
+.main_udruzenje {
+    position: absolute;
+    text-align: center;
+    border-top: solid #d9b310 2px;
+    border-bottom: solid #d9b310 2px;
+    height: auto;
+    padding: 20px;
+}
+
+.main_text_box {
+    left: 0;
+    top: 10%;
+    width: 100%;
+    background: rgba(217, 179, 16, .3);
+    margin-top: 40px;
+
+}
+
+.main_udruzenje {
+    left: 0;
+    top: 50%;
+    width: auto;
+    background: rgba(8, 60, 93, .7)
+}
+
+.main_text_box span,
+.main_text_box span,
+.main_udruzenje span,
+.main_udruzenje span {
+    font-weight: 700;
+    color: #fff;
+    text-shadow: #000 1px 0 10px
+}
+
+.main_text_box span{
+    font-size: 55px
+}
+
+.main_udruzenje span{
+    font-size: 45px
+}
+
+.main-down {
+    overflow: auto;
+    clear: both
+}
+
+.main-down-text {
+    position: relative;
+    background-color: #083c5d;
+    height: auto;
+    float: left
+}
+
+.col-left,
+.col-right {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #083c5d;
+    color: #fff
+}
+
+.footer-menu,
+.slajd-container {
+    box-sizing: border-box;
+    height: auto
+}
+
+.col-left {
+    float: left;
+    width: 50%
+}
+
+.main-down-text::after {
+    content: '';
+    width: 1px;
+    background-color: #328cc1;
+    height: 70%;
+    left: 50%;
+    bottom: 15%;
+    position: absolute
+}
+
+.col-left-text {
+    font-size: 30px;
+    text-align: right;
+    margin: 60px 50px 40px 180px;
+    line-height: 40px
+}
+
+.col-right {
+    float: right;
+    width: 50%
+}
+
+.col-right-text {
+    font-size: 17px;
+    text-align: left;
+    margin: 60px 180px 40px 50px;
+    line-height: 30px
+}
+
+

@@ -1,0 +1,35 @@
+.full{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.slika img{
+    width: 50px;
+}
+
+.main_ostale,
+.top-txt {
+    width: 100%;
+    text-align: center;
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+
+.main_ostale {
+    position: relative;
+    border-top: solid #d9b310 2px;
+    border-bottom: solid #d9b310 2px;
+    height: auto;
+    left: 0;
+    top: 10%;
+    background: #fff;
+    color: #4b6675;
+    font-size: xx-large;
+}
+
+.top-txt {
+    font-size: 1.5em !important;
+    color: #394c57
+}

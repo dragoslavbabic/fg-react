@@ -1,0 +1,35 @@
+.btngroup{
+    background-color: #083c5d;
+    border: 0;
+    border-radius: 0;
+}
+
+.btngroup .btn{
+    background-color: #083c5d;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+}
+
+.btngroup .btn:hover{
+background-color: #d9b310;
+}
+
+.flexme{
+    margin: auto;
+    text-align: center;
+}
+
+.dropdown-menu{
+    background-color: #d9b310 !important ;
+    border: 0;
+    font-size: 1.5em !important;
+}
+
+.dropdown-item{
+    color: white !important;
+}
+
+.dropdown-item:hover{
+    color: black !important;
+}
