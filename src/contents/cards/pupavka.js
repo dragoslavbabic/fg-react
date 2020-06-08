@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Vidra = () => {
+const Pupavka = () => {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -52,24 +52,24 @@ const Vidra = () => {
         <CardHeader
           avatar={
             <Avatar aria-label="recipe" className={classes.avatar}>
-              VI
+              ZP
             </Avatar>
           }
-          title={<h2>Vidra</h2>}
-          subheader={<h6>Lutra lutra</h6>}
+          title={<h2>Zelena pupavka</h2>}
+          subheader={<h6>Amanita phalloides</h6>}
         />
         <CardMedia
           className={classes.media}
-          image="/images/vidra-lutra.jpg"
-          title="Vidra"
+          image="/images/pupavka.jpg"
+          title="Zelena pupavka"
         />
         <CardContent className="card-tekst">
           <Typography variant="body2" color="textSecondary" component="p">
-            Na Fruškoj gori živi i vidra, obična, rečna ili evropska (Lutra
-            lutra). Pripada porodici kuna i izuzetno je prilagođena životu u
-            slatkoj vodi. Poznata je kao veoma vešt i brz plivač. Vidre imaju
-            gipko i vrlo pokretno telo, koje im je izuzetno osposobljeno za
-            ronjenje.
+            Zelena pupavka (lat. Amanita phalloides), najotrovnija gljiva koja
+            naseljava Frušku Goru, a i celu teritoriju Srbije. Šešir ove opake
+            gljive se javlja u raznim nijansama zelene boje, najčešće je
+            maslinastozelene boje sa bledim rubom (klobuk može biti i žut i
+            sasvim beo.{' '}
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -93,18 +93,18 @@ const Vidra = () => {
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent className="tekst-expanded">
             <Typography paragraph>
-              U vodi mogu izdržati izuzetno dugo, a za hvatanje plena se služe
-              oštrim i snažnim zubima.
+              Raste od proleća do kraja jeseni u šumama. Može se naći u blizini
+              hrasta, jesena, graba i breze.{' '}
             </Typography>
             <Typography paragraph>
-              Zanimljivi podatak je da se krik razbesnele vidre može na vodi
-              čuti i dva kilometara daleko. Nekada su lovljene zbog svog krzna,
-              koje se smatralo skupocenim, ali su ih ubijali i ribari da im ne
-              bi činile konkurenciju.
+              Poznato je da samo 30 grama plodnog tela ove gljive ubije zdravog
+              čoveka, a dokazano je da čak i pepeo ove gljive ima smrtonosan
+              karakter!{' '}
             </Typography>
             <Typography>
-              Vidra je ugrožena i strogo zaštićena vrsta u Srbiji, i svaki
-              sačuvan ili spasen primerak je nemerljiv.
+              Ova gljiva sadrži otrove koji uništavaju jetru i ne mogu se
+              uništiti ni izlaganjem velikim temperaturama, npr. kuvanjem, niti
+              sušenjem.{' '}
             </Typography>
           </CardContent>
         </Collapse>{' '}
@@ -113,4 +113,4 @@ const Vidra = () => {
   );
 };
 
-export default Vidra;
+export default Pupavka;

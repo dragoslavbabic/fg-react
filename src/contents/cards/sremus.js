@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Vidra = () => {
+const Sremus = () => {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -52,24 +52,23 @@ const Vidra = () => {
         <CardHeader
           avatar={
             <Avatar aria-label="recipe" className={classes.avatar}>
-              VI
+              SR
             </Avatar>
           }
-          title={<h2>Vidra</h2>}
-          subheader={<h6>Lutra lutra</h6>}
+          title={<h2>Sremuš</h2>}
+          subheader={<h6>Allium ursinum</h6>}
         />
         <CardMedia
           className={classes.media}
-          image="/images/vidra-lutra.jpg"
-          title="Vidra"
+          image="/images/sremus.jpg"
+          title="Sremuš"
         />
         <CardContent className="card-tekst">
           <Typography variant="body2" color="textSecondary" component="p">
-            Na Fruškoj gori živi i vidra, obična, rečna ili evropska (Lutra
-            lutra). Pripada porodici kuna i izuzetno je prilagođena životu u
-            slatkoj vodi. Poznata je kao veoma vešt i brz plivač. Vidre imaju
-            gipko i vrlo pokretno telo, koje im je izuzetno osposobljeno za
-            ronjenje.
+            Na Fruškoj gori se može naći i sremuš (Allium ursinum), poznat još
+            kao medveđi ili divlji beli luk. On pripada i prvim vesnicima
+            proleća. Ova samonikla jestiva biljka bere se od marta do maja u
+            planinskim područjima i izuzetno je korisna za zdravlje.
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -93,18 +92,19 @@ const Vidra = () => {
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent className="tekst-expanded">
             <Typography paragraph>
-              U vodi mogu izdržati izuzetno dugo, a za hvatanje plena se služe
-              oštrim i snažnim zubima.
+              Ima odlična antibakterijska svojstva i posebno je delotvorna u
+              čišćenju creva, želuca i krvi. Medveđi luk sadrži alicin, eterična
+              ulja, alisulfide i polisaharide.
             </Typography>
             <Typography paragraph>
-              Zanimljivi podatak je da se krik razbesnele vidre može na vodi
-              čuti i dva kilometara daleko. Nekada su lovljene zbog svog krzna,
-              koje se smatralo skupocenim, ali su ih ubijali i ribari da im ne
-              bi činile konkurenciju.
+              U sezoni od aprila do juna, koristi se samo mlado lišće i
+              lukovica.{' '}
             </Typography>
             <Typography>
-              Vidra je ugrožena i strogo zaštićena vrsta u Srbiji, i svaki
-              sačuvan ili spasen primerak je nemerljiv.
+              Listovi mirišu na beli luk i veoma su blagog i laganog ukusa, dok
+              njegova lukovica podseća na mešavinu belog i crnog luka i ljutog
+              je ukusa. Cvetovi sremuša su beli, zvonastog oblika i jako
+              prijatnog mirisa.{' '}
             </Typography>
           </CardContent>
         </Collapse>{' '}
@@ -113,4 +113,4 @@ const Vidra = () => {
   );
 };
 
-export default Vidra;
+export default Sremus;

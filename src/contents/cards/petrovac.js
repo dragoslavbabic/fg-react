@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Vidra = () => {
+const Petrovac = () => {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -52,24 +52,23 @@ const Vidra = () => {
         <CardHeader
           avatar={
             <Avatar aria-label="recipe" className={classes.avatar}>
-              VI
+              PT
             </Avatar>
           }
-          title={<h2>Vidra</h2>}
-          subheader={<h6>Lutra lutra</h6>}
+          title={<h2>Petrovac</h2>}
+          subheader={<h6>Agrimonia eupatoria</h6>}
         />
         <CardMedia
           className={classes.media}
-          image="/images/vidra-lutra.jpg"
-          title="Vidra"
+          image="/images/petrovac.jpg"
+          title="Petrovac"
         />
         <CardContent className="card-tekst">
           <Typography variant="body2" color="textSecondary" component="p">
-            Na Fruškoj gori živi i vidra, obična, rečna ili evropska (Lutra
-            lutra). Pripada porodici kuna i izuzetno je prilagođena životu u
-            slatkoj vodi. Poznata je kao veoma vešt i brz plivač. Vidre imaju
-            gipko i vrlo pokretno telo, koje im je izuzetno osposobljeno za
-            ronjenje.
+            Na Fruškoj gori raste i petrovac ili ranjenik, lat. Agrimonia
+            eupatoria, biljka iz porodice ruža lat. Rosaceae. Kao tipična
+            taninska biljka upotrebljava se kod dijareje, unutrašnjih krvarenja
+            i za ispiranje usta i grla.{' '}
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -93,18 +92,20 @@ const Vidra = () => {
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent className="tekst-expanded">
             <Typography paragraph>
-              U vodi mogu izdržati izuzetno dugo, a za hvatanje plena se služe
-              oštrim i snažnim zubima.
+              Osim toga dobra je i za smirivanje crevnih kolika, a pomaže i kod
+              upale mokraćnih puteva. Poznat je i kao lek za kožna oboljenja,
+              koristi se i za spoljašnju upotrebu za lakše zarastanje rana.{' '}
             </Typography>
             <Typography paragraph>
-              Zanimljivi podatak je da se krik razbesnele vidre može na vodi
-              čuti i dva kilometara daleko. Nekada su lovljene zbog svog krzna,
-              koje se smatralo skupocenim, ali su ih ubijali i ribari da im ne
-              bi činile konkurenciju.
+              Zeljasta trajnica, može narasti i do jednog metra visine. Ima
+              karakteristične žute cvetiće sakupljene u klasolike grozdove, plod
+              je mali čičak.{' '}
             </Typography>
             <Typography>
-              Vidra je ugrožena i strogo zaštićena vrsta u Srbiji, i svaki
-              sačuvan ili spasen primerak je nemerljiv.
+              Stabljika stoji vertikalno i ne grana se. Prizemni listovi
+              formiraju rozetu, dok su ostali listovi na stabljici naizmenično
+              perasti i blago nazubljeni po obodu. Cveta u periodu od juna do
+              septembra.{' '}
             </Typography>
           </CardContent>
         </Collapse>{' '}
@@ -113,4 +114,4 @@ const Vidra = () => {
   );
 };
 
-export default Vidra;
+export default Petrovac;

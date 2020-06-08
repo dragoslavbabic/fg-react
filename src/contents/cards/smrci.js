@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Vidra = () => {
+const Smrci = () => {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -52,24 +52,24 @@ const Vidra = () => {
         <CardHeader
           avatar={
             <Avatar aria-label="recipe" className={classes.avatar}>
-              VI
+              SM
             </Avatar>
           }
-          title={<h2>Vidra</h2>}
-          subheader={<h6>Lutra lutra</h6>}
+          title={<h2>Smrčci</h2>}
+          subheader={<h6>Morchella</h6>}
         />
         <CardMedia
           className={classes.media}
-          image="/images/vidra-lutra.jpg"
-          title="Vidra"
+          image="/images/morcela.jpg"
+          title="Morchella"
         />
         <CardContent className="card-tekst">
           <Typography variant="body2" color="textSecondary" component="p">
-            Na Fruškoj gori živi i vidra, obična, rečna ili evropska (Lutra
-            lutra). Pripada porodici kuna i izuzetno je prilagođena životu u
-            slatkoj vodi. Poznata je kao veoma vešt i brz plivač. Vidre imaju
-            gipko i vrlo pokretno telo, koje im je izuzetno osposobljeno za
-            ronjenje.
+            Smrčci (lat. Morchella) su rod jestivih i vrlo cenjenih gljiva koje
+            rastu na Fruškoj gori. Ove neobične gljive imaju saćastu strukturu.
+            Smrčci imaju mnoge narodne nazive, a i sami naziv roda Morchella
+            potiče od reči „morchel“, što je u starom nemačkom jeziku značilo
+            „gljiva“.{' '}
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -93,18 +93,14 @@ const Vidra = () => {
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent className="tekst-expanded">
             <Typography paragraph>
-              U vodi mogu izdržati izuzetno dugo, a za hvatanje plena se služe
-              oštrim i snažnim zubima.
+              Drveće često povezano sa smrčcima su javori, topole i stare
+              jabuke. Rastu u proleće uglavnom u šumama.{' '}
             </Typography>
             <Typography paragraph>
-              Zanimljivi podatak je da se krik razbesnele vidre može na vodi
-              čuti i dva kilometara daleko. Nekada su lovljene zbog svog krzna,
-              koje se smatralo skupocenim, ali su ih ubijali i ribari da im ne
-              bi činile konkurenciju.
-            </Typography>
-            <Typography>
-              Vidra je ugrožena i strogo zaštićena vrsta u Srbiji, i svaki
-              sačuvan ili spasen primerak je nemerljiv.
+              Na njihovo plodonošenje utiče veoma veliki broj različitih faktora
+              te stoga spadaju u izuzetno nepredvidive gljive koje su sklone
+              velikim eksplozijama, i tada se mogu brati u izobilju, dok se
+              dešava da godinama možemo pronaći svega nekoliko primeraka.{' '}
             </Typography>
           </CardContent>
         </Collapse>{' '}
@@ -113,4 +109,4 @@ const Vidra = () => {
   );
 };
 
-export default Vidra;
+export default Smrci;

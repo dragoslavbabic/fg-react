@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Vidra = () => {
+const Gorocvet = () => {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -52,24 +52,24 @@ const Vidra = () => {
         <CardHeader
           avatar={
             <Avatar aria-label="recipe" className={classes.avatar}>
-              VI
+              GC
             </Avatar>
           }
-          title={<h2>Vidra</h2>}
-          subheader={<h6>Lutra lutra</h6>}
+          title={<h2>Gorocvet</h2>}
+          subheader={<h6>Adonis vernalis</h6>}
         />
         <CardMedia
           className={classes.media}
-          image="/images/vidra-lutra.jpg"
-          title="Vidra"
+          image="/images/gorocvet.jpg"
+          title="Gorocvet"
         />
         <CardContent className="card-tekst">
           <Typography variant="body2" color="textSecondary" component="p">
-            Na Fruškoj gori živi i vidra, obična, rečna ili evropska (Lutra
-            lutra). Pripada porodici kuna i izuzetno je prilagođena životu u
-            slatkoj vodi. Poznata je kao veoma vešt i brz plivač. Vidre imaju
-            gipko i vrlo pokretno telo, koje im je izuzetno osposobljeno za
-            ronjenje.
+            Gorocvet (lat. Adonis vernalis) ili u narodu poznat još kao: zečji
+            mak, gorocvat, gospina vlas je još jednu od retkih vrsta koja raste
+            na Fruškoj gori. Višegodišnja je zeljasta biljka iz familije
+            ljutića. Predstavlja ukras Deliblatske peščare i u Vojvodini je
+            zaštićena od 1978. godine.
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -93,18 +93,17 @@ const Vidra = () => {
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent className="tekst-expanded">
             <Typography paragraph>
-              U vodi mogu izdržati izuzetno dugo, a za hvatanje plena se služe
-              oštrim i snažnim zubima.
+              Osim po lepoti ova biljka je dragocena i po lekovitosti i koristi
+              se za proizvodnju lekova protiv srčanih oboljenja. Upravo zbog
+              toga je znatno proređena.
             </Typography>
             <Typography paragraph>
-              Zanimljivi podatak je da se krik razbesnele vidre može na vodi
-              čuti i dva kilometara daleko. Nekada su lovljene zbog svog krzna,
-              koje se smatralo skupocenim, ali su ih ubijali i ribari da im ne
-              bi činile konkurenciju.
+              Gorocvet je ljutog, gorkog, neprijatnog ukusa i veoma otrovan, ali
+              i lekovit.
             </Typography>
             <Typography>
-              Vidra je ugrožena i strogo zaštićena vrsta u Srbiji, i svaki
-              sačuvan ili spasen primerak je nemerljiv.
+              U homeopatiji se gorocvet koristi za lečenje hipertireoze, reume,
+              zapaljenja pluća i angine pektoris. Zbog otrovnosti ne treba je k
             </Typography>
           </CardContent>
         </Collapse>{' '}
@@ -113,4 +112,4 @@ const Vidra = () => {
   );
 };
 
-export default Vidra;
+export default Gorocvet;

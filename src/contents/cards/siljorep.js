@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Vidra = () => {
+const Siljorep = () => {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -52,24 +52,23 @@ const Vidra = () => {
         <CardHeader
           avatar={
             <Avatar aria-label="recipe" className={classes.avatar}>
-              VI
+              ŠR
             </Avatar>
           }
-          title={<h2>Vidra</h2>}
-          subheader={<h6>Lutra lutra</h6>}
+          title={<h2>Šiljorep</h2>}
+          subheader={<h6>Limodorum abortivum</h6>}
         />
         <CardMedia
           className={classes.media}
-          image="/images/vidra-lutra.jpg"
-          title="Vidra"
+          image="/images/siljorep.jpg"
+          title="Šiljorep"
         />
         <CardContent className="card-tekst">
           <Typography variant="body2" color="textSecondary" component="p">
-            Na Fruškoj gori živi i vidra, obična, rečna ili evropska (Lutra
-            lutra). Pripada porodici kuna i izuzetno je prilagođena životu u
-            slatkoj vodi. Poznata je kao veoma vešt i brz plivač. Vidre imaju
-            gipko i vrlo pokretno telo, koje im je izuzetno osposobljeno za
-            ronjenje.
+            Na Fruškoj gori se krije i simpatični šiljorep (Limodorum
+            abortivum), višegodišnja zeljasta biljka iz porodice kaćunki
+            (Orchidaceae). Poreklo mu je iz srednje i istočne Evrope, zapadne
+            Azije i Mediterana.{' '}
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -93,18 +92,18 @@ const Vidra = () => {
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent className="tekst-expanded">
             <Typography paragraph>
-              U vodi mogu izdržati izuzetno dugo, a za hvatanje plena se služe
-              oštrim i snažnim zubima.
+              Naraste od 20 do 50 cm u visinu, iz podanka koji je kratak i
+              vodoravno položen, a uz njega razvija mesnato i lomljivo korenje.
+              Plavoljubičaste je boje.{' '}
             </Typography>
             <Typography paragraph>
-              Zanimljivi podatak je da se krik razbesnele vidre može na vodi
-              čuti i dva kilometara daleko. Nekada su lovljene zbog svog krzna,
-              koje se smatralo skupocenim, ali su ih ubijali i ribari da im ne
-              bi činile konkurenciju.
+              Šiljorep je saprofit što znači da se hrani mrtvom organskom
+              materijom te ne provodi fotosintezu.{' '}
             </Typography>
             <Typography>
-              Vidra je ugrožena i strogo zaštićena vrsta u Srbiji, i svaki
-              sačuvan ili spasen primerak je nemerljiv.
+              Raste u borovim i hrastovim šumama, šikarama, kamenjarima. Kao i
+              sve druge vrste iz porodice kaćuna, spada u ugrožene i zaštićene
+              biljke.{' '}
             </Typography>
           </CardContent>
         </Collapse>{' '}
@@ -113,4 +112,4 @@ const Vidra = () => {
   );
 };
 
-export default Vidra;
+export default Siljorep;
