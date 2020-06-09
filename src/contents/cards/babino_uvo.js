@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Babino_uvo = () => {
+const BabinoUvo = () => {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -112,4 +112,4 @@ const Babino_uvo = () => {
   );
 };
 
-export default Babino_uvo;
+export default BabinoUvo;
