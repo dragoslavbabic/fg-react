@@ -16,6 +16,7 @@ const Content = () => {
       <Route path="/sisari" component={Sisari} />
       <Route path="/biljke" component={Biljke} />
       <Route path="/gljive" component={Gljive} />
+      <Route path="/kontakt" component={Kontakt} />
     </Switch>
   );
 };
