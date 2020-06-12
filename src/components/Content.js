@@ -1,6 +1,6 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
-import Kontakt from './../contents/Kontakt';
+import {Kontakt} from './../contents/Kontakt';
 import O_nama from './../contents/O_nama';
 import Pocetna from './../contents/Pocetna';
 import Ptice from './../contents/Ptice';
