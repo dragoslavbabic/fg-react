@@ -57,7 +57,7 @@ export const Kontakt = () => {
             email: '',
             poruka: '',
           }}
-          //   validationSchema={KontaktSchema}
+          validationSchema={KontaktSchema}
           //   onSubmit={(values) => {
           //     console.log(values);
           //   }}
