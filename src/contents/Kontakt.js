@@ -149,7 +149,7 @@ export const Kontakt = () => {
                 color="primary"
                 className={classes.submit}
               >
-                Sign Up
+                Pošalji !
               </Button>
             </Form>
           )}
